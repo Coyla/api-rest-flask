@@ -4,7 +4,7 @@ import os
 import logging
 
 app = Flask(__name__)
-port = int(os.getenv('VCAP_APP_PORT', '8000'))
+port = int(os.getenv('VCAP_APP_PORT', '8800'))
 
 #Chatbot load
 logging.basicConfig(level=logging.INFO)
