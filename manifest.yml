@@ -2,4 +2,4 @@
 applications:
  - name: bot-rest-poc
    random-route: true
-   memory: 896M
+   memory: 256M
