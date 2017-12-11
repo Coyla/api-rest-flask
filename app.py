@@ -1,10 +1,14 @@
-from flask import Flask,request,jsonify
+from flask import Flask, request, jsonify
 from chatterbot import ChatBot
 import os
 import logging
 
+
 app = Flask(__name__)
-port = int(os.getenv('VCAP_APP_PORT', '8800'))
+# default port
+port = int(os.getenv('PORT', 5000))
+# On Bluemix, get the port number from the environment variable PORT
+# When running this app on the local machine, default the port to 8000
 
 #Chatbot load
 logging.basicConfig(level=logging.INFO)
@@ -30,11 +34,10 @@ bot = ChatBot(
 )
 
 bot.train('data/acronyms/acronyms.yml')
-#Changement type de training de corpus vers listrainer
-debug("chatterbot is running  ...")
+debug("chatterbot is running  ...") #Changement type de training de corpus vers listrainer
+bot.read_only = True #desactivation d'apprentissage automatique
 
-#desactivation d'apprentissage automatique
-bot.read_only = True
+
 @app.route('/message',methods=['POST'])
 def post_message():
 	request_response = request.get_json(force=True,silent=True)
@@ -49,6 +52,12 @@ def get_message():
 	response_json = jsonify(response_dict)
 	print(type(response_json))
 	return response_json
+
+@app.route('/<content>')
+def default_message(content):
+	print('test')
+	response_dict = 'message ' + bot.get_response(content).text
+	return response_dict
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=port, debug=True)

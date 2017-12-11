@@ -1,0 +1,72 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8800/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 288-352-920
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 288-352-920
+INFO:werkzeug: * Running on http://0.0.0.0:8800/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:33:37] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:chatterbot.adapters:Recieved input statement: favicon.ico
+INFO:chatterbot.adapters:"favicon.ico" is not a known statement
+INFO:chatterbot.adapters:Using "favicon.ico" as a close match to "FIN"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Finances"
+INFO:chatterbot.adapters:BestMatch selected "Finances" as a response with a confidence of 0.43
+INFO:chatterbot.adapters:Not processing the statement using AcronymLogicAdapter
+INFO:chatterbot.adapters:Not processing the statement using GreetingLogicAdapter
+INFO:chatterbot.adapters:LowConfidenceAdapter selected "Acronym not found" as a response with a confidence of 1
+INFO:chatterbot.adapters:NoKnowledgeAdapter selected "favicon.ico" as a response with a confidence of 0
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:33:41] "[1m[35mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:chatterbot.adapters:Recieved input statement: favicon.ico
+INFO:chatterbot.adapters:"favicon.ico" is not a known statement
+INFO:chatterbot.adapters:Using "favicon.ico" as a close match to "FIN"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Finances"
+INFO:chatterbot.adapters:BestMatch selected "Finances" as a response with a confidence of 0.43
+INFO:chatterbot.adapters:Not processing the statement using AcronymLogicAdapter
+INFO:chatterbot.adapters:Not processing the statement using GreetingLogicAdapter
+INFO:chatterbot.adapters:LowConfidenceAdapter selected "Acronym not found" as a response with a confidence of 1
+INFO:chatterbot.adapters:NoKnowledgeAdapter selected "favicon.ico" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "favicon.ico" as a response to "Acronym not found"
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:33:44] "[1m[35mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8800/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:35:19] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:8800/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 288-352-920
+INFO:werkzeug: * Detected change in '/Users/work/Dev/api-rest-flask/app.py', reloading
+INFO:werkzeug: * Detected change in '/Users/work/Dev/api-rest-flask/app.py', reloading
+INFO:werkzeug: * Restarting with fsevents reloader
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 288-352-920
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:36:27] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:chatterbot.adapters:Recieved input statement: favicon.ico
+INFO:chatterbot.adapters:"favicon.ico" is not a known statement
+INFO:chatterbot.adapters:Using "favicon.ico" as a close match to "FIN"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Finances"
+INFO:chatterbot.adapters:BestMatch selected "Finances" as a response with a confidence of 0.43
+INFO:chatterbot.adapters:Not processing the statement using AcronymLogicAdapter
+INFO:chatterbot.adapters:Not processing the statement using GreetingLogicAdapter
+INFO:chatterbot.adapters:LowConfidenceAdapter selected "Acronym not found" as a response with a confidence of 1
+INFO:chatterbot.adapters:NoKnowledgeAdapter selected "favicon.ico" as a response with a confidence of 0
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:36:31] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO:chatterbot.adapters:Recieved input statement: favicon.ico
+INFO:chatterbot.adapters:"favicon.ico" is not a known statement
+INFO:chatterbot.adapters:Using "favicon.ico" as a close match to "FIN"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Finances"
+INFO:chatterbot.adapters:BestMatch selected "Finances" as a response with a confidence of 0.43
+INFO:chatterbot.adapters:Not processing the statement using AcronymLogicAdapter
+INFO:chatterbot.adapters:Not processing the statement using GreetingLogicAdapter
+INFO:chatterbot.adapters:LowConfidenceAdapter selected "Acronym not found" as a response with a confidence of 1
+INFO:chatterbot.adapters:NoKnowledgeAdapter selected "favicon.ico" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "favicon.ico" as a response to "Acronym not found"
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2017 15:36:34] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
